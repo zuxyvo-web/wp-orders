@@ -1,0 +1,251 @@
+# Copyright (C) 2025 Webkul
+# This file is distributed under the same license as the MarketPlace Split Order plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: MarketPlace Split Order 1.2.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/multi-vendor-marketplace-lite-for-woocommerce/\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-07-04T12:47:55+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"language-team: LANGUAGE <EMAIL@ADDRESS>\n"
+"X-Domain: mp-split-order\n"
+
+#. Plugin Name of the plugin
+#: wp-marketplace-split-order.php
+msgid "MarketPlace Split Order"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: wp-marketplace-split-order.php
+msgid "https://codecanyon.net/item/wordpress-woocommerce-marketplace-split-order-plugin/19466195"
+msgstr ""
+
+#. Description of the plugin
+#: wp-marketplace-split-order.php
+msgid "MarketPlace Split Order helps to filter the vendor order in a simple way."
+msgstr ""
+
+#. Author of the plugin
+#: wp-marketplace-split-order.php
+msgid "Webkul"
+msgstr ""
+
+#. Author URI of the plugin
+#: wp-marketplace-split-order.php
+msgid "https://webkul.com/"
+msgstr ""
+
+#. Translators: %d: product filepath.
+#: autoload/class-wkmpso-autoload.php:91
+msgid "The file attempting to be loaded at %s does not exist."
+msgstr ""
+
+#. translators: %s̤ WooCommerce Plugin link
+#: helper/class-wkmpso-order-split.php:281
+#: helper/class-wkmpso-order-split.php:290
+#: helper/class-wkmpso-order-split.php:292
+#: helper/class-wkmpso-order-split.php:347
+msgid "Error %d: Unable to create order. Please try again."
+msgstr ""
+
+#: includes/admin/class-wkmpso-admin-functions.php:93
+#: includes/admin/class-wkmpso-admin-functions.php:94
+msgid "Split Order"
+msgstr ""
+
+#: includes/admin/class-wkmpso-admin-functions.php:139
+msgid "You can choose only Seller Shipping if split order addon is activated."
+msgstr ""
+
+#: includes/admin/class-wkmpso-admin-functions.php:152
+msgid "Only Seller Shipping is available for split order"
+msgstr ""
+
+#: includes/admin/class-wkmpso-admin-functions.php:334
+msgid "Sub Orders"
+msgstr ""
+
+#: includes/admin/class-wkmpso-admin-functions.php:337
+msgid "Action"
+msgstr ""
+
+#: includes/admin/class-wkmpso-admin-functions.php:376
+msgid "View Suborder"
+msgstr ""
+
+#: includes/admin/class-wkmpso-admin-functions.php:391
+#: templates/order-details.php:82
+msgid "Note:"
+msgstr ""
+
+#: includes/admin/class-wkmpso-admin-functions.php:391
+msgid "You can choose only seller shipping if split order is activated and enabled"
+msgstr ""
+
+#: includes/admin/class-wkmpso-admin-functions.php:467
+msgid "View Woocommerce Marketplace Split Order documentation"
+msgstr ""
+
+#: includes/admin/class-wkmpso-admin-functions.php:467
+msgid "Docs"
+msgstr ""
+
+#: includes/admin/class-wkmpso-admin-functions.php:468
+msgid "Visit customer support"
+msgstr ""
+
+#: includes/admin/class-wkmpso-admin-functions.php:468
+msgid "Support"
+msgstr ""
+
+#: includes/admin/class-wkmpso-admin-functions.php:469
+msgid "Rate on Codecanyon"
+msgstr ""
+
+#: includes/admin/class-wkmpso-admin-functions.php:485
+msgid "Settings"
+msgstr ""
+
+#. translators: %s: is file path
+#: includes/class-wkmarketplace-split-order.php:97
+msgid "Marketplace Split Order is deactivated. It requires %s plugin in order to work!"
+msgstr ""
+
+#: includes/class-wkmarketplace-split-order.php:98
+msgid "Maketplace Plugin"
+msgstr ""
+
+#. translators: %s: is file path
+#: includes/class-wkmarketplace-split-order.php:128
+msgid "Marketplace Split Order won't work. Kindly enable the use of  %s"
+msgstr ""
+
+#: includes/class-wkmarketplace-split-order.php:129
+#: templates/wkmpso-settings.php:15
+msgid "Marketplace Split Order"
+msgstr ""
+
+#. Translators: %s: order_id.
+#: includes/front/class-wkmpso-front-functions.php:258
+msgid "Order Id: %1$d, changed Order Status from %2$s to %3$s"
+msgstr ""
+
+#: includes/front/class-wkmpso-front-functions.php:300
+msgid "Access Denied"
+msgstr ""
+
+#: includes/front/class-wkmpso-front-functions.php:301
+msgid "Sorry, You can't access it."
+msgstr ""
+
+#: templates/order-details.php:42
+msgid "Order details"
+msgstr ""
+
+#: templates/order-details.php:46
+msgid "Product"
+msgstr ""
+
+#: templates/order-details.php:47
+msgid "Total"
+msgstr ""
+
+#: templates/orders.php:50
+msgctxt "hash before order number"
+msgid "#"
+msgstr ""
+
+#. translators: 1: formatted order total 2: total order items
+#: templates/orders.php:59
+msgid "%1$s for %2$s item"
+msgid_plural "%1$s for %2$s items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/orders.php:82
+msgid "Previous"
+msgstr ""
+
+#: templates/orders.php:87
+msgid "Next"
+msgstr ""
+
+#: templates/orders.php:95
+msgid "Browse products"
+msgstr ""
+
+#: templates/orders.php:96
+msgid "No order has been made yet."
+msgstr ""
+
+#: templates/thankyou.php:54
+#: templates/thankyou.php:105
+msgid "Unfortunately your order cannot be processed as the originating bank/merchant has declined your transaction. Please attempt your purchase again."
+msgstr ""
+
+#: templates/thankyou.php:56
+#: templates/thankyou.php:107
+msgid "Pay"
+msgstr ""
+
+#: templates/thankyou.php:58
+#: templates/thankyou.php:109
+msgid "My account"
+msgstr ""
+
+#: templates/thankyou.php:63
+#: templates/thankyou.php:94
+#: templates/thankyou.php:113
+#: templates/thankyou.php:144
+msgid "Thank you. Your order has been received."
+msgstr ""
+
+#: templates/thankyou.php:66
+#: templates/thankyou.php:116
+msgid "Order number:"
+msgstr ""
+
+#: templates/thankyou.php:70
+#: templates/thankyou.php:120
+msgid "Date:"
+msgstr ""
+
+#: templates/thankyou.php:75
+#: templates/thankyou.php:125
+msgid "Email:"
+msgstr ""
+
+#: templates/thankyou.php:80
+#: templates/thankyou.php:130
+msgid "Total:"
+msgstr ""
+
+#: templates/thankyou.php:85
+#: templates/thankyou.php:135
+msgid "Payment method:"
+msgstr ""
+
+#: templates/wkmpso-settings.php:23
+msgid "Status"
+msgstr ""
+
+#: templates/wkmpso-settings.php:26
+msgid "Enable / Disable Marketplace Split Order Plugin."
+msgstr ""
+
+#: templates/wkmpso-settings.php:29
+msgid "Enable"
+msgstr ""
+
+#: templates/wkmpso-settings.php:32
+msgid "Disable"
+msgstr ""
+
+#: templates/wkmpso-settings.php:41
+msgid "Save Changes"
+msgstr ""
